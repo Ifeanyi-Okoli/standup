@@ -1,0 +1,2 @@
+# standup
+class practice
