@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/6a08c93b89.js" crossorigin="anonymous"></script> 
-    </head>
 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+      </style>
+      <style>
+    .btn-holder{
+      position: absolute;
+      right: 5px;
+      bottom: 70px;
+      width: 70px;
+      height:100px;
+    }
+
+    .brands {
+      width: 40px;
+      height: 40px;
+      background-color: #1977cc;
+      border-radius: 60%;
+      text-align: center;
+      padding: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+
+
+    .brands i {
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .btn{
+      border-radius: 8px;
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+      
 <body>
     <!--Header-->
     <div class=" flex justify-between bg-slate-100 w-full py-3 fixed">
@@ -74,50 +110,42 @@
        
     </div>
 
-    <!--Main 1-->
+<!-- <footer 1 -->
 
-    <!--Main 2-->
+    <footer class="flex flex-col md:flex-row">
+        <div class="m-8 p-4">
+            <h2><b>Bullseye Digital Manpower</b></h2>
+            <p>3-6 Alh. Adejumo Avenue,<br>Illupeju, Lagos, <br> Nigeria</p>
+            <br>
+            <b>Phone:</b>+2349122995390 <br> <b>Email:</b>partners@bullseyemanpower.com
+        </div>
+        <br>
+        <div class="m-8 p-4">
+            <strong>Useful Links</strong>
+            <ul>
+                <li class="space-x-2 p-2"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#Home">Home</a></li>
+                <li class="space-x-2 p-2"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#about">About Us</a></li>
+                <li class="space-x-2 p-2"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#services">Our Courses</a></li>
+                <li class="space-x-2 p-2"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#departments">Accolades</a></li>
+                <li class="space-x-2 p-2"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#faq">FAQs</a></li>
+            </ul>
+        </div>
+        <br>
+        <div class="m-8 p-4">
+            <b>Join Our Newsletter</b>
+            <p>Get the latest news and updates from us</p>
+            <span class="flex">
+                <form class="border-solid border-2 border-sky-200 rounded-2l" action="email" method="get">    
+                    <input type="email" name="email">
+                </form>
+                <button class="bg-blue-300 rounded-lg width-full align-middle"><strong>Subscribe</strong></button>
+            </span> 
+        </div>
+    </footer>
 
-    <!--Footer-->
-<!-- <footer 2 -->
+<!--footer-2--!>
 
-<style>
-    .btn-holder{
-      position: absolute;
-      right: 5px;
-      bottom: 70px;
-      width: 70px;
-      height:100px;
-    }
-
-    .brands {
-      width: 40px;
-      height: 40px;
-      background-color: #1977cc;
-      border-radius: 60%;
-      text-align: center;
-      padding: 8px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
-    }
-
-    .brands i {
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-    }
-
-    .btn{
-      border-radius: 8px;
-      width: 50px;
-      height: 50px;
-    }
-  </style>
-</head>
-
-<body style="position: relative">
+<div style="position: relative">
   <div class="grid grid-cols-2 w-full p-10">
     <div class="">
         <h2>&copy;Copyright <b>Bullseye Digital Manpower.</b> All Rights Reserved</h2>
@@ -133,8 +161,7 @@
 <div class="btn-holder">
   <a href="a" class="brands btn"><i class="fa-solid fa-arrow-up"></i></a>
 </div>
-</body>
-</html>   
-    
+</div>
+  
 </body>
 </html>
