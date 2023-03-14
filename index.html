@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +10,109 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+      </style>
+      <style>
+    .btn-holder{
+      position: absolute;
+      right: 5px;
+      bottom: 70px;
+      width: 70px;
+      height:100px;
+    }
+
+    .brands {
+      width: 40px;
+      height: 40px;
+      background-color: #1977cc;
+      border-radius: 60%;
+      text-align: center;
+      padding: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+
+
+    .brands i {
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .btn{
+      border-radius: 8px;
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+
     <!--Header-->
+    <div class=" flex justify-between bg-slate-100 w-full py-3 fixed">
+    <div class="flex justify-start md:ml-24">
+        <p class="mx-6">+2349122995390</p>
+        <p>info@bullseyemanpower.com</p>
+    </div>
+    <div class="flex justify-between w-48 cursor-pointer mr-24 invisible lg:visible">
+        <img class="w-4 h-4 mb-1 rounded-2xl" src="/standup/assets/twitter.png" alt="twitter">
+        <img  class="w-4 h-4 mb-1 rounded-2xl" src="/standup/assets/facebook.jpg" alt="facebook">
+        <img  class="w-4 h-4 mb-1 rounded-2xl" src="/standup/assets/instagram.png" alt="instagram">
+        <img  class="w-4 h-4 mb-1 rounded-2xl" src="/standup/assets/linkedin.png" alt="linkedin">
+        <img  class="w-4 h-4 mb-1 rounded-2xl" src="/standup/assets/youtube.png" alt="youtube">
+        <img  class="w-4 h-4 mb-1 rounded-2xl" src="/standup/assets/pinterest.png" alt="pinterest">
+    </div>
+    </div>
+    
+    <div class="w-full flex justify-evenly mt-12 pt-6 items-center bg-white fixed ">
+        <div class="shrink-0">
+            <img class="w-48" src="/standup/assets/bullseye logo.png" alt="logo">
+        </div>
+        <div class="flex justify-between md:w-96 w-0 invisible lg:visible">
+            <p class="hover:text-blue-500 cursor-pointer
+             hover:underline 
+            hover:decoration-blue-500 hover:decoration-2
+             hover:underline-offset-8 ">Home</p>
+            <p class="hover:text-blue-500 cursor-pointer
+            hover:underline 
+           hover:decoration-blue-500 hover:decoration-2
+            hover:underline-offset-8 ">About</p>
+            <p class="hover:text-blue-500 cursor-pointer
+            hover:underline 
+           hover:decoration-blue-500 hover:decoration-2
+            hover:underline-offset-8 ">Courses</p>
+            <p class="hover:text-blue-500 cursor-pointer
+            hover:underline 
+           hover:decoration-blue-500 hover:decoration-2
+            hover:underline-offset-8 ">Accolades</p>
+            <p class="hover:text-blue-500 cursor-pointer
+            hover:underline 
+           hover:decoration-blue-500 hover:decoration-2
+            hover:underline-offset-8 ">FAQs</p>
+            <p class="hover:text-blue-500 cursor-pointer
+            hover:underline 
+           hover:decoration-blue-500 hover:decoration-2
+            hover:underline-offset-8 ">Contact</p>
+        </div>
+        <div class="flex justify-end md:justify-between items-center w-96 ">
+            <div class="bg-sky-600 cursor-pointer rounded-3xl hover:bg-sky-700 w-12 h-4 md:w-36 md:h-10">
+                <p class="text-white text-center invisible md:visible pt-1">Register Now</p>
+            </div>
+            <div class="mx-3 bg-sky-600 cursor-pointer rounded-3xl hover:bg-sky-700 w-12 h-4 md:w-40 md:h-10">
+                <p class="text-white text-center invisible md:visible pt-1 ">Partner With Us </p>
+            </div>
+            <div class="visible md:invisible">
+                <img class="w-9" src="/standup/assets/hamburger.png" alt="Home icon">
+            </div>
+        </div>
+       
+    </div>
 
-
+<!-- <footer 1 -->
     <!--Main 1-->
     <section class="w-full">
         <img src="./assets/slider1.jpg" class="h-auto">
@@ -38,10 +138,57 @@
             </div> 
 
     </section>
-    <!--Main 2-->
-
-    <!--Footer-->
-
     
+    <!--Main 2-->
+    <footer class="flex flex-col md:flex-row">
+        <div class="m-8 p-4">
+            <h2><b>Bullseye Digital Manpower</b></h2>
+            <p>3-6 Alh. Adejumo Avenue,<br>Illupeju, Lagos, <br> Nigeria</p>
+            <br>
+            <b>Phone:</b>+2349122995390 <br> <b>Email:</b>partners@bullseyemanpower.com
+        </div>
+        <br>
+        <div class="m-8 p-4">
+            <strong>Useful Links</strong>
+            <ul>
+                <li class="space-x-2 p-2"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#Home">Home</a></li>
+                <li class="space-x-2 p-2"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#about">About Us</a></li>
+                <li class="space-x-2 p-2"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#services">Our Courses</a></li>
+                <li class="space-x-2 p-2"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#departments">Accolades</a></li>
+                <li class="space-x-2 p-2"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#faq">FAQs</a></li>
+            </ul>
+        </div>
+        <br>
+        <div class="m-8 p-4">
+            <b>Join Our Newsletter</b>
+            <p>Get the latest news and updates from us</p>
+            <span class="flex">
+                <form class="border-solid border-2 border-sky-200 rounded-2l" action="email" method="get">    
+                    <input type="email" name="email">
+                </form>
+                <button class="bg-blue-300 rounded-lg width-full align-middle"><strong>Subscribe</strong></button>
+            </span> 
+        </div>
+    </footer>
+
+<!--footer-2--!>
+<div style="position: relative">
+  <div class="grid grid-cols-2 w-full p-10">
+    <div class="">
+        <h2>&copy;Copyright <b>Bullseye Digital Manpower.</b> All Rights Reserved</h2>
+    </div>
+    <div class="space-x-5 flex flex-row justify-end ">
+      <a href="a" class="brands"><i class="fa-brands fa-twitter"></i></a>
+      <a href="a" class="brands"><i class="fa-brands fa-facebook"></i></a>
+      <a href="a" class="brands"><i class="fa-brands fa-instagram"></i></a>
+      <a href="a" class="brands"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="a" class="brands"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+  </div>
+<div class="btn-holder">
+  <a href="a" class="brands btn"><i class="fa-solid fa-arrow-up"></i></a>
+</div>
+</div>
+  
 </body>
 </html>
